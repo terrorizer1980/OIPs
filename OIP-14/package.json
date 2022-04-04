@@ -2,14 +2,17 @@
   "scripts": {
     "test": "jest",
     "eslint": "eslint .",
-    "jsinspect": "jsinspect -t 30 -i ./lib/ ./services/"
+    "jsinspect": "jsinspect -t 30 -i ./lib/ ./services/",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "squeezer-chainkit": "^1.0.8-beta",
     "squeezer-chainkit-plugin": "0.0.1",
     "squeezer-event-node": "~0.0.4",
     "squeezer-serve": "~0.0.7",
-    "squeezer-swagger": "~0.0.7"
+    "squeezer-swagger": "~0.0.7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -29,5 +32,6 @@
     "yarn": "^1.22.0",
     "webpack-node-externals": "^1.6.0",
     "webpack-source-map-support": "^2.0.1"
-  }
+  },
+  "snyk": true
 }

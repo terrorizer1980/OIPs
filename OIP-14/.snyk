@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - squeezer-chainkit-plugin > lodash:
+        patched: '2022-04-04T10:10:44.308Z'
+    - squeezer-swagger > lodash:
+        patched: '2022-04-04T10:10:44.308Z'
+    - squeezer-chainkit > request-promise > request-promise-core > lodash:
+        patched: '2022-04-04T10:10:44.308Z'
+    - squeezer-chainkit-plugin > squeezer-chainkit > request-promise > request-promise-core > lodash:
+        patched: '2022-04-04T10:10:44.308Z'

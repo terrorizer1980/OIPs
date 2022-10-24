@@ -2,7 +2,7 @@
 # crate-docs-theme>=0.7
 okchain1-docs-theme>=0.1.24
 sphinx-csv-filter
-Pygments==2.3.1
+Pygments==2.7.4
 
 
 alabaster==0.7.12
@@ -12,7 +12,7 @@ recommonmark==0.6.0
 restructuredtext-lint==1.3.0
 six==1.12.0
 snowballstemmer==2.0.0
-Sphinx==2.3.0
+Sphinx==3.0.4
 sphinx-markdown-tables==0.0.10
 sphinx-autobuild==0.7.1
 sphinx-rtd-theme==0.4.3
